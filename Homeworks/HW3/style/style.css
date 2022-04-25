@@ -1,0 +1,158 @@
+body {
+    font-family: 'Inika', serif;
+    font-family: 'Marcellus SC', serif;
+    font-family: 'M PLUS 1', sans-serif;
+}
+
+.header {
+    min-height: 54px;
+    font-family: 'M PLUS 1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #3E45E8;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-span {
+    color: #E8C23E;
+
+}
+
+.banner {
+    background-image: url(../img/image\ 1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 803px;
+    box-sizing: border-box;
+    padding-left: 80px;
+    padding-top: 200px;
+}
+
+.content {
+    font-size: 48px;
+    line-height: 76px;
+    font-weight: 700;
+    color: #FFFFFF;
+    width: 1036px;
+    background-image: url(../img/Group\ 4.png);
+    background-repeat: no-repeat;
+    padding-left: 70px;
+}
+
+.h1 {
+    font-family: 'Inika';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 63px;
+    margin-left: 80px;
+    margin-top: 62px;
+}
+
+.line {
+    border-bottom: 5px solid #3E45E8;
+    width: 402px;
+    margin-bottom: 33px;
+}
+
+.card {
+    display: inline-block;
+    padding-left: 80px;
+}
+
+.image {
+    width: 100%;
+}
+
+.card-middle {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.card-name {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #1E8DF2;
+}
+
+.card-desc {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+    color: #E8C23E;
+}
+
+.h2 {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 63px;
+    text-align: center;
+}
+
+.line-2 {
+    margin-left: 37%;
+    margin-top: 21px;
+    border-bottom: 5px solid #3E45E8;
+    width: 402px;
+    margin-bottom: 33px;
+}
+
+.map {
+    width: 812px;
+    height: 537px;
+    margin-left: 25%;
+}
+
+.help {
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+    background: #2A61F0;
+    width: 591px;
+    padding: 5px 10px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+.footer-name {
+    font-family: 'M PLUS 1', sans-serif;
+    min-height: 54px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    color: #3E45E8;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-span {
+    color: #E8C23E;
+}
+
+.footer {
+    background: #2F4A4B;
+    margin-top: 31px;
+}
+
+.mail,
+.phone {
+    font-family: 'Marcellus SC', serif;
+    color: #A89D9D;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.social{
+    margin-left: 40%;
+}
