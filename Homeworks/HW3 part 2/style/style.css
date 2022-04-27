@@ -1,0 +1,146 @@
+/*.main {
+    display: inline-block;
+}*/
+
+div {
+    margin: 50px;
+}
+
+.square-wave {
+    height: 512px;
+    max-width: 512px;
+    background: linear-gradient(#2137FC 50%, #E8C23E 50%);
+}
+
+.wave {
+    background-image: url(../img/wave.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.square {
+    height: 512px;
+    max-width: 512px;
+    background: linear-gradient(#2137FC 50%, #E8C23E 50%);
+}
+
+.square-rect {
+    height: 512px;
+    max-width: 512px;
+    background: linear-gradient(#2137FC 50%, #E8C23E 50%);
+}
+
+.rect {
+    background-image: url(../img/Rectangle.png);
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.square-plane {
+    height: 512px;
+    max-width: 512px;
+    background: linear-gradient(#2137FC 50%, #E8C23E 50%);
+}
+
+.plane {
+    background-image: url(../img/Plane.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+.square-dia {
+    height: 512px;
+    max-width: 512px;
+    background: linear-gradient(#2137FC 50%, #E8C23E 50%);
+}
+
+.dia {
+    background-image: url(../img/diia.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.circle-wave {
+    height: 512px;
+    max-width: 512px;
+    background: linear-gradient(#2137FC 50%, #E8C23E 50%);
+    border-radius: 50%;
+}
+
+.wave-2 {
+    background-image: url(../img/wave.png);
+    background-position: 50% 90%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.circle {
+    height: 512px;
+    max-width: 512px;
+    background: linear-gradient(#2137FC 50%, #E8C23E 50%);
+    border-radius: 50%;
+}
+
+.circle-rect {
+    height: 512px;
+    max-width: 512px;
+    background: linear-gradient(#2137FC 50%, #E8C23E 50%);
+    border-radius: 50%;
+}
+
+.rect-2 {
+    background-image: url(../img/Rectangle.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.circle-plane {
+    height: 512px;
+    max-width: 512px;
+    background: linear-gradient(#2137FC 50%, #E8C23E 50%);
+    border-radius: 50%;
+}
+
+.plane-2 {
+    background-image: url(../img/Plane.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.circle-dia {
+    height: 512px;
+    max-width: 512px;
+    background: linear-gradient(#2137FC 50%, #E8C23E 50%);
+    border-radius: 50%;
+}
+
+.dia-2 {
+    background-image: url(../img/diia.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.dia-black {
+    height: 512px;
+    max-width: 512px;
+    background: black;
+background-repeat: no-repeat;
+    background-image: url("../img/flag.png");
+    
+
+}
+
+.dia-white {
+    background-image: url(../img/diia.png);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
