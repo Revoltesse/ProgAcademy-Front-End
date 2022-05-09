@@ -1,7 +1,7 @@
 body {
     font-family: 'PT Sans', sans-serif;
-    width: 1920px;
     background: #DCDCDC;
+    width: 100%;
 }
 
 .menu-header {
@@ -125,8 +125,8 @@ span:nth-child(6) {
     text-decoration: none;
 }
 
-img.svg:hover {
-    background-color: yellow;
+.svg-2:hover {
+    fill: yellow;
   }
   
 
