@@ -1,0 +1,475 @@
+body,
+html {
+    font-family: 'Rosario', sans-serif;
+    font-family: 'Volkhov', serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body header {
+    position: sticky;
+    top: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    margin: 0;
+}
+
+
+.logo {
+    background: #FFFBFB;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.nav-item {
+    margin-left: 2vw;
+    font-family: 'Rosario';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.nav-item:last-of-type {
+    margin-right: 2vw;
+}
+
+li.nav-item>a {
+    text-decoration: none;
+    box-sizing: border-box;
+    color: #FFFCFC;
+}
+
+/*галерея*/
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6vh;
+    max-width: 100%;
+    
+}
+
+img {
+    max-width: fit-content;
+}
+
+center {
+    display: flex;
+}
+
+.center-top,
+.center-bottom {
+    display: flex;
+    margin-bottom: 5%;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.center-left-1,
+.center-left-2 {
+    border-radius: 30px;
+    position: relative;
+    margin-right: 2%;
+    animation: aniCenterLeft 1s linear forwards;
+}
+
+@keyframes aniCenterLeft {
+
+    0% {
+        top: 0%;
+        left: -100%;
+    }
+
+    100% {
+        top: 0%;
+        left: 0px;
+    }
+}
+
+
+.center-right-1,
+.center-right-2 {
+    border-radius: 30px;
+    position: relative;
+    animation: aniCenterRight 1s linear forwards;
+}
+
+@keyframes aniCenterRight {
+
+    0% {
+        top: 0%;
+        left: 100%;
+    }
+
+    100% {
+        top: 0%;
+        left: 0px;
+    }
+}
+
+*/ .left,
+.right {
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.left-pic {
+    border-radius: 30px;
+    position: relative;
+    animation: aniLeft 2s linear forwards;
+}
+
+@keyframes aniLeft {
+
+    0% {
+        top: 0%;
+        left: -100%;
+    }
+
+    100% {
+        top: 0%;
+        left: 0px;
+    }
+}
+
+.right-pic {
+    border-radius: 30px;
+    position: relative;
+    animation: aniRight 2s linear forwards;
+}
+
+@keyframes aniRight {
+
+    0% {
+        top: 0%;
+        left: 100%;
+    }
+
+    100% {
+        top: 0%;
+        left: 0px;
+    }
+}
+
+/*послуги*/
+
+
+.service {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.service-circle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p {
+    font-family: 'Rosario';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 15%;
+}
+
+.service-top,
+.service-bottom {
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+.service-pic {
+    margin-right: 0;
+}
+
+.service-img {
+    border-radius: 50%;
+}
+
+.service-img-1 {
+    position: relative;
+    animation: animationName 4s infinite;
+}
+
+@Keyframes animationName {
+
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        top: 0px;
+        left: 500px;
+    }
+
+    50% {
+        top: 500px;
+        left: 500px;
+    }
+
+    75% {
+        top: 500px;
+        left: 0;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.service-img-2 {
+    position: relative;
+    animation: animationName2 4s infinite;
+}
+
+@Keyframes animationName2 {
+
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        top: -500px;
+        left: 0px;
+    }
+
+    50% {
+        top: -500px;
+        left: 500px;
+    }
+
+    75% {
+        top: 0;
+        left: 500px;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.service-img-3 {
+    position: relative;
+    animation: animationName3 4s infinite;
+}
+
+@Keyframes animationName3 {
+
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        top: 500px;
+        left: 0px;
+    }
+
+    50% {
+        top: 500px;
+        left: -500px;
+    }
+
+    75% {
+        top: 0px;
+        left: -500px;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+.service-img-4 {
+    position: relative;
+    animation: animationName4 4s infinite;
+}
+
+@Keyframes animationName4 {
+
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        top: 0px;
+        left: -500px;
+    }
+
+    50% {
+        top: -500px;
+        left: -500px;
+    }
+
+    75% {
+        top: -500px;
+        left: 0px;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+    }
+}
+
+/*команда*/
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5vh;
+}
+
+.meredith-pic {
+    background: url(../img/team-meredith.jpg);
+    background-repeat: no-repeat;
+    height: 677px;
+    width: 404px;
+}
+
+.jason-pic {
+    background: url(../img/team-jason.jpg);
+    background-repeat: no-repeat;
+    height: 677px;
+    width: 404px;
+}
+
+.ryan-pic {
+    background: url(../img/team-ryan.jpg);
+    background-repeat: no-repeat;
+    height: 677px;
+    width: 404px;
+}
+
+.james-pic {
+    background: url(../img/team-james.jpg);
+    background-repeat: no-repeat;
+    height: 677px;
+    width: 404px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.team-card:hover>.name {
+    height: 15vh;
+    background: rgba(163, 83, 10, 0.7);
+    transition: all 0.5s linear;
+    transform: translateY(-100%);
+    font-family: 'Volkhov';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2rem;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+/*карта з формою*/
+
+.form-map {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-name {
+    font-family: 'Rosario';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 4rem;
+    color: black;
+    margin-left: 4vw;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+
+.form-input {
+    display: flex;
+    background: #E5E5E5;
+    max-width: 40vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4vw;
+}
+
+.your-name,
+.email,
+.your-message {
+    padding: 1vh 3vh;
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 1.7vw;
+    border: none;
+}
+
+.your-message {
+    min-width: 33.5vw;
+    min-height: 10vh;
+}
+
+.map {
+    margin-top: 10vh;
+}
+
+.footer {
+    font-family: 'Rosario';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+span {
+    font-family: 'Rosario';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+
+a {
+    cursor: pointer;
+}
+
+.social {
+    line-height: 1.5rem;
+}
+
+.social-icon {
+    width: 26px;
+    height: 26px;
+}
